@@ -3,11 +3,11 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: process.env.NODE_ENV === 'production' 
-      ? 'react-transition-group.min.js'
-      : 'react-transition-group.js',
+    filename: process.env.NODE_ENV === 'production'
+      ? 'react-animation-group.min.js'
+      : 'react-animation-group.js',
     path: path.join(__dirname, 'lib/dist'),
-    library: 'ReactTransitionGroup',
+    library: 'ReactAnimationGroup',
     libraryTarget: 'umd',
   },
   externals: {

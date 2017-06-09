@@ -1,7 +1,3 @@
-import CSSTransitionGroup from './CSSTransitionGroup';
-import TransitionGroup from './TransitionGroup';
+import AnimationGroup from './AnimationGroup';
 
-module.exports = {
-  TransitionGroup,
-  CSSTransitionGroup,
-};
+module.exports = AnimationGroup;
